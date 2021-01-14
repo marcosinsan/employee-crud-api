@@ -2,16 +2,32 @@
   "name": "employee-crud-api",
   "version": "1.0.0",
   "description": "Aplicação CRUD Api em Node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js,  -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/marcosinsan/employee-crud-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure-functions",
+    "express",
+    "github-actions",
+    "swa",
+    "serverless",
+    "azure",
+    "postgresql",
+    "sql",
+    "javascript"
+  ],
+  "author": "Glaucia Lemos <@glaucia_lemos - Twitter>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marcosinsan/employee-crud-api/issues"
